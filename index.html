@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ODD OR EVEN NUMBERS</title>
+    </head>
+    <body>
+        <div id = "output"></div>
+        <script>
+            for (let i=0; i<=200; i++)
+            {
+                if (i % 2 === 0)
+                {
+                    console.log(i + " is even");
+                    document.getElementById("output").innerHTML += i + " is even <br>";
+                }
+                else
+                {
+                    console.log(i + " is odd");
+                    document.getElementById("output").innerHTML += i + " is odd <br>";
+                }
+            }
+        </script>
+        
+    </body>
+</html>
